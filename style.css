@@ -1,0 +1,93 @@
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  background-color: #f9f9f9;
+}
+
+/* 컨테이너의 크기와 정렬 설정 */
+.container {
+  width: 100%;
+  max-width: 420px; /* 모바일 화면에 맞춘 최대 폭 */
+  min-width: 320px; /* 최소 폭 */
+  margin: 0 auto;
+  padding: 20px;
+  background-color: white;
+  text-align: center; /* 안의 내용 중앙 정렬 */
+}
+
+/* 타이틀 스타일 */
+.title {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 24px;
+  font-weight: bold;
+  margin-bottom: 10px;
+  background-color: #FFF7D8;
+  border-radius: 12px;
+  padding: 12px; /* 상하좌우 패딩 설정 */
+}
+
+/* 로고 이미지 스타일 */
+.title img {
+  width: 30px; /* 로고 크기 설정 */
+  height: auto;
+  margin-right: 10px; /* 로고와 텍스트 사이의 간격 */
+}
+
+/* 설명 텍스트 스타일 */
+.description {
+  font-size: 14px;
+  margin-bottom: 20px;
+}
+
+/* 이미지 영역 스타일 */
+.content {
+  display: flex;
+  justify-content: space-between;
+}
+
+.left, .right {
+  width: 48%;
+}
+
+/* 좌우 이미지 스타일 */
+.left img, .right img {
+  width: 100%;
+  height: auto;
+  border-radius: 10px;
+}
+
+/* 버튼 스타일 */
+.apply-button {
+  display: block;
+  width: 100%;
+  padding: 10px;
+  background-color: #ff9900;
+  color: white;
+  font-size: 18px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  margin-top: 20px;
+}
+
+.apply-button:hover {
+  background-color: #e68a00;
+}
+
+/* 인덱스 숫자 원형 스타일 */
+.index {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 40px;
+  height: 40px;
+  background-color: #FFD600; /* 배경색 설정 */
+  border-radius: 50%;
+  font-size: 24px;
+  font-weight: bold;
+  color: white;
+  margin: 20px auto; /* 상하 margin 설정, 중앙으로 배치 */
+}
