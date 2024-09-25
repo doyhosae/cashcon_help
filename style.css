@@ -11,9 +11,13 @@ body {
   max-width: 420px; /* 모바일 화면에 맞춘 최대 폭 */
   min-width: 320px; /* 최소 폭 */
   margin: 0 auto;
-  padding: 20px;
+  padding: 20px 20px 0 20px;
   background-color: white;
   text-align: center; /* 안의 내용 중앙 정렬 */
+}
+
+.container:last-child {
+  padding: 20px!important;
 }
 
 /* 타이틀 스타일 */
